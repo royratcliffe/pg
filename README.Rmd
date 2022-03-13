@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pg
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/pg)](https://CRAN.R-project.org/package=pg)
+<!-- badges: end -->
+
+The name of the package (Papa Golf) reflects the fundamental dependency: PostgreSQL. The functions support connection to PostgreSQL databases either using `RPostgres` or by `odbc`.
+
+The goal of `pg` is to encapsulate PostgreSQL-specific queries using `dplyr`, `dbplyr` and `DBI` packages.
+
+## Installation
+
+You can install the development version of pg like so:
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(pg)
+## basic example code
+```
